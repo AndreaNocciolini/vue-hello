@@ -18,6 +18,9 @@ body {
     font-size: 4.3em;
 }
 
+#text {
+    width: 100%;
+}
 .white {
     color: white;
 }
@@ -25,8 +28,20 @@ body {
 #container-img {
     width: 24%;
     margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25em;
 }
 
 #container-img img {
     width: 50%;
+}
+
+#number {
+    font-size: 2em;
+}
+
+.cart-icon {
+    font-size: 0.8em;
 }

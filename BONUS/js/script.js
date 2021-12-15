@@ -16,7 +16,7 @@ const text = new Vue(
     el: `#text`,
     data : {
         text: ``,
-        placeHolder: `Write here` 
+        placeHolder: `Write here...` 
         }
     }
 )
