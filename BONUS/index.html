@@ -15,6 +15,14 @@
     
     <div class="container">
         <h1 id="title" :class="color">{{ message }}</h1>
+        <input type="text" id="text" v-bind:placeholder="placeHolder">
+    </div>
+
+    <div id="container-img" class="container">
+        <img id="img" v-bind:src ="image" alt="">
+        <span id="number">{{ number }}</span>
+        <button @click="addOne">Add</button>
+        <button @click="removeOne">Remove</button>
     </div>
     <!-- Link js -->
     <script src="js/script.js"></script>

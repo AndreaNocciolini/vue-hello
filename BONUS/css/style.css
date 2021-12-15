@@ -10,13 +10,23 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-image: linear-gradient(to bottom, #051937, #47255a, #912462, #ce314b, #eb6712);
 }
 
 #title {
-    font-size: 6em;
+    font-size: 4.3em;
 }
 
 .white {
     color: white;
+}
+
+#container-img {
+    width: 24%;
+    margin-top: 1em;
+}
+
+#container-img img {
+    width: 50%;
 }
